@@ -7,11 +7,17 @@
 .flex-box1{
     display: flex;
     justify-content: space-between;
+    height: 85px;
 }
 
-.about-us{
-    display: flex;
-    justify-content:center;
+.header-content{
+    text-align: center;
+    height: 600px;
+}
+
+.abouts{
+    text-align:center;
+    height: 200 px;
 }
 
 .flex-box2{
@@ -21,6 +27,8 @@
 .flex-box2 .about-image,
 .flex-box2 .about-content{
     width: 50%;
+    height: 1000px;
+    outline: solid 2px green;
 }
 
 .flex-box3{
@@ -32,5 +40,55 @@
 .flex-box3 .specs{
     width: 25%;
     outline: solid 2px yellow;
-    height: 100px;
+    height: 500px;
+}
+
+.flex-box4{
+    display: flex;
+}
+
+.flex-box4 .numbers{
+    width: 25%;
+    outline: solid 2px #7F5283;
+    height: 340px;
+}
+
+.flex-box5{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menus{
+    text-align: center;
+    height: 200px;
+}
+.flex-box5 .foods{
+    width: 33%;
+    height: 500px;
+    outline: solid 2px #D61C4E;
+}
+
+.testimonials{
+    height:125px;
+    text-align: center;
+}
+
+.flex-box6{
+    display: flex;
+}
+
+.flex-box6 .feedback{
+    width: 50%;
+    height: 300px;
+    text-align: center;
+}
+
+.flex-box7{
+    display: flex;
+}
+
+.flex-box7 .eventdetails{
+    width: 33%;
+    height: 500 px;
+    outline: solid 2px #3330E4;
 }
