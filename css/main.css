@@ -17,7 +17,7 @@
 
 .abouts{
     text-align:center;
-    height: 200 px;
+    height: 200px;
 }
 
 .flex-box2{
@@ -69,7 +69,7 @@
 }
 
 .testimonials{
-    height:125px;
+    /* height:125px; */
     text-align: center;
 }
 
@@ -89,6 +89,6 @@
 
 .flex-box7 .eventdetails{
     width: 33%;
-    height: 500 px;
+    height: 500px;
     outline: solid 2px #3330E4;
 }
